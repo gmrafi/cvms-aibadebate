@@ -11,10 +11,15 @@ async function searchCertificate() {
         if (found) {
             resultDiv.innerHTML = `
                 <h2>Certificate Found ✅</h2>
+                <p><strong></strong></p>
+                <img src="${found.photo}" alt="Debater Photo" style="max-width: 200px; max-height: 200px;">
+                <p><strong>Event Name:</strong> ${found.event}</p>
+                <p><strong>Event Type:</strong> ${found.event_type}</p>
+                <p><strong>Event Date:</strong> ${found.event_date}</p>
                 <p><strong>Name:</strong> ${found.name}</p>
-                <p><strong>Event:</strong> ${found.event}</p>
-                <p><strong>Batch:</strong> ${found.batch}</p>
-                <p><strong>Section:</strong> ${found.section}</p>
+                <p><strong>Team:</strong> ${found.team_name}</p>
+                <p><strong>Role/Position:</strong> ${found.role}</p>
+                <p><strong>Batch & Section:</strong> ${found.batch}</p>
                 <p><strong>Student ID:</strong> ${found.id}</p>
                 <p><strong>Certificate Number:</strong> ${found.cert_no}</p>
                 <p><strong>Comment:</strong> ${found.comment}</p>
