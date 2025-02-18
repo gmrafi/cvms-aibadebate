@@ -11,11 +11,11 @@ async function searchCertificate() {
         if (found) {
             resultDiv.innerHTML = `
                 <h2>Certificate Found ✅</h2>
-                <p><strong></strong></p>
-                <img src="${found.photo}" alt="Debater Photo" style="max-width: 200px; max-height: 200px;">
                 <p><strong>Event Name:</strong> ${found.event}</p>
                 <p><strong>Event Type:</strong> ${found.event_type}</p>
                 <p><strong>Event Date:</strong> ${found.event_date}</p>
+  <p><strong>Photo:</strong></p>
+                <img src="${found.photo}" alt="Debater Photo" style="max-width: 200px; max-height: 200px;">
                 <p><strong>Name:</strong> ${found.name}</p>
                 <p><strong>Team:</strong> ${found.team_name}</p>
                 <p><strong>Role/Position:</strong> ${found.role}</p>
@@ -23,6 +23,9 @@ async function searchCertificate() {
                 <p><strong>Student ID:</strong> ${found.id}</p>
                 <p><strong>Certificate Number:</strong> ${found.cert_no}</p>
                 <p><strong>Comment:</strong> ${found.comment}</p>
+                <p><strong>Issued By:</strong> ${found.issued_by}</p>
+
+                
             `;
         } else {
             resultDiv.innerHTML = "<h2>Certificate Not Found ❌</h2>";

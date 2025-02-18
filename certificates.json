@@ -21,7 +21,9 @@
         "team_name": "Dialectic Pioneers",
         "role": "Debater (DPM)",
         "comment": "Test Comment",
-        "photo": "Photos/rafi.jpg"
+        "photo": "Photos/rafi.jpg",
+        "issued_by": "AIBA Debate Club, Army Institute of Business Administration, Sylhet"
+
     },
     {
         "cert_no": "67890",
