@@ -14,15 +14,14 @@ async function searchCertificate() {
                 <p><strong>Event Name:</strong> ${found.event_name}</p>
                 <p><strong>Debate Format & Event Type:</strong> ${found.debate_format} & ${found.event_type}</p>
                 <p><strong>Event Date:</strong> ${found.event_date}</p>
-                
                 <h3>Participant Details</h3>
                 <p><strong></strong></p>
                 <img src="${found.photo}" alt="Profile Photo" style="max-width: 200px; max-height: 200px;">
                 <p><strong>Name:</strong> ${found.name}</p>
                 <p><strong>Role:</strong> ${found.role}</p>
-                <p><strong>Position/Speaker Role:</strong> ${found.position}</p>
-                <p><strong>Team Name (For Debaters Only):</strong> ${found.team_name}</p>
+                <p><strong>Position/Speaker:</strong> ${found.position}</p>
                 <p><strong>Motion Debated:</strong> ${found.motion_debated}</p>
+                <p><strong>Team Name (For Debaters Only):</strong> ${found.team_name}</p>
                 <p><strong>Organization/Institution:</strong> ${found.organization}</p>
                 <p><strong>Batch & Section:</strong> ${found.batch}</p>
                 <p><strong>ID:</strong> ${found.id}</p>
@@ -30,12 +29,12 @@ async function searchCertificate() {
                 <p><strong>Scores & Feedback:</strong> ${found.scores_feedback}</p>
                 <p><strong>Judge’s Comment:</strong> ${found.judges_comment}</p>
                 <p><strong>Additional Comments:</strong> ${found.comment}</p>
-                <h2>Certificate Information</h2>
+                <h3>Certificate Information</h3>
                 <p><strong>Certificate Number:</strong> ${found.cert_no}</p>
                 <p><strong>Issued By:</strong> ${found.issued_by}</p>
             `;
         } else {
-            resultDiv.innerHTML = "<h2>Certificate Not Found ❌ or Error fetching certificate ❌ <p> <h5> Please contact with Rafi at +8801300560126 on WhatsApp for assistance.</h2>" ;
+            resultDiv.innerHTML = "<h2>Certificate Not Found ❌ or Error fetching certificate ❌ <p> <h5> Please contact with Rafi (+8801300560126) on WhatsApp for assistance.</h2>" ;
         }
     } catch (error) {
         console.error('Error fetching certificates:', error);
