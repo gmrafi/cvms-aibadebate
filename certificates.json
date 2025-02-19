@@ -1,58 +1,44 @@
 [
 
-    {
-        "event":"AIBA Intra Debate 2025",
-        "name":"Golam Mubasshir Rafi",
-        "batch":"BBA-11",
-        "section":"Bravo",
-        "id":"101123070",
-        "cert_no":"SW240100",
-        "comment":"Volunteer + Debater"
-    },
-    {
-        "cert_no": "12345",
-        "id": "101123072",
-        "name": "Md Golam Mubasshir Rafi",
-        "event": " AIBA Intra Debate Competition 202V",
-        "event_type": "British Parliamentary, Intra University",
-        "event_date": "2024-05-15",
-        "batch": "BBA-11",
-        "section": "",
-        "team_name": "Dialectic Pioneers",
-        "role": "Debater (DPM)",
-        "comment": "Test Comment",
-        "photo": "Photos/rafi.jpg",
-        "issued_by": "AIBA Debate Club, Army Institute of Business Administration, Sylhet"
 
-    },
     {
-        "cert_no": "123456",
-        "id": "1011230726",
-        "name": "Md Golam Mubasshir Rafi",
-        "event": " AIBA Intra Debate Competition 202V",
-        "event_type": "British Parliamentary, Intra University",
-        "event_date": "2024-05-15",
-        "batch": "BBA-11",
-        "section": "",
-        "team_name": "Dialectic Pioneers",
-        "role": "Debater (DPM)",
-        "comment": "Test Comment",
-        "photo": "Photos/aiba.jpg",
-        "issued_by": "AIBA Debate Club, Army Institute of Business Administration, Sylhet"
-
-    },
-    {
-        "cert_no": "67890",
-        "id": "def456",
-        "name": "Jane Smith",
-        "event": "Debate Championship",
+        "cert_no": "1234",
+        "id": "ID001",
+        "event_name": "Debate Championship 2025",
+        "debate_format": "British Parliamentary",
         "event_type": "National",
-        "event_date": "2024-05-15",
-        "batch": "2024",
-        "section": "B",
-        "team_name": "Team Beta",
+        "event_date": "2025-01-15",
+        "motion_debated": "This house believes that AI will replace human jobs.",
+        "photo": "Photos/rafi.jpg",
+        "name": "John Doe",
         "role": "Debater",
-        "comment": "Outstanding debater",
-        "photo": "photos/jane_smith.jpg"
-    }
+        "position": "First Speaker",
+        "team_name": "Team Alpha",
+        "organization": "XYZ University",
+        "batch": "2023",
+        "scores_feedback": "85/100",
+        "judges_comment": "Excellent performance.",
+        "comment": "Keep up the good work.",
+        "issued_by": "Debate Association"
+ },
+ {
+    "cert_no": "12345",
+    "id": "ID001",
+    "event_name": "Debate Championship 2025",
+    "debate_format": "British Parliamentary",
+    "event_type": "National",
+    "event_date": "2025-01-15",
+    "motion_debated": "This house believes that AI will replace human jobs.",
+    "photo": "Photos/sahil.jpeg",
+    "name": "John Doe",
+    "role": "Debater",
+    "position": "First Speaker",
+    "team_name": "Team Alpha",
+    "organization": "XYZ University",
+    "batch": "2023",
+    "scores_feedback": "85/100",
+    "judges_comment": "Excellent performance.",
+    "comment": "Keep up the good work.",
+    "issued_by": "Debate Association"
+}
 ]
