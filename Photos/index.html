@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIBA Debate Club - Certificate Verification & Management System (CVMS)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header img {
+            height: 80px;
+        }
+        header div {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0 10px; /* Adjusted margin to bring logos closer */
+        }
+        @media (min-width: 1024px) {
+            header img {
+                height: 120px;
+            }
+            header div {
+                margin: 0 20px; /* Adjusted margin for larger screens */
+            }
+        }
+        @media (max-width: 768px) {
+            header img {
+                display: none;
+            }
+            header div {
+                text-align: center;
+            }
+        }
+        /* Reduce the distance between header and container section */
+        .container {
+            margin-top: 05px; /* Adjust this value as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Photos/aiba.jpg" alt="University Logo">
+        <div>
+            <h1>Army Institute of Business Administration (AIBA), Sylhet</h1>
+            <h3>Jalalabad Cantonment, Sylhet, Bangladesh</h3>
+            <h2>AIBA Debate Club - Certificate Verification & Management System (CVMS)</h2>
+        </div>
+        <img src="Photos/debate.jpg" alt="Sports Logo">
+    </header>
+
+    <section class="container">
+        <h3>Verify Your Certificate</h3>
+        <input type="text" id="searchInput" placeholder="Enter Certificate Number or Student ID">
+        <button id="verifyButton">Verify</button>
+        <div id="result"></div>
+    </section>
+    <section class="additional-info">
+        <h3>About CVMS</h3>
+        <p>The Certificate Verification & Management System (CVMS) is designed to help students and institutions efficiently verify and manage certificates.</p>
+    </section>
+    <footer>
+        <p>© 2025 GMRafi CVMS | AIBA Sylhet | AIBA Debate Club </p>
+        <p>Designed and developed by <strong><a href="https://me.gmrafi.com/" target="_blank" style="color: white;">Golam Mubasshir Rafi</a></strong></p>
+        Powered by GMRafi Web
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
