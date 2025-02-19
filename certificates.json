@@ -7,7 +7,7 @@
         "event_type": "National",
         "event_date": "2025-01-15",
         "motion_debated": "This house believes that AI will replace human jobs.",
-        "photo": "photos/rafi.jpg",
+        "photo": "/photos/rafi.jpg",
         "name": "John Doe",
         "role": "Debater",
         "position": "First Speaker",
