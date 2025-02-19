@@ -10,22 +10,22 @@ async function searchCertificate() {
 
         if (found) {
             resultDiv.innerHTML = `
-                <h2>Certificate Found ✅</h2>
-                <p><strong>Event Name:</strong> ${found.event_name}</p>
+                <h1>Certificate Found ✅</h1>
+                <h2><strong></strong> ${found.event_name}</h2>
                 <p><strong>Debate Format & Event Type:</strong> ${found.debate_format} & ${found.event_type}</p>
                 <p><strong>Event Date:</strong> ${found.event_date}</p>
                 <h3>Participant Details</h3>
-  <p><strong>Photo:</strong></p>
+  <p><strong></strong></p>
                 <img src="${found.photo}" alt="Debater Photo" style="max-width: 200px; max-height: 200px;">
               <p><strong>Name:</strong> ${found.name}</p>
                 <p><strong>Role:</strong> ${found.role}</p>
                 <p><strong>Position/Speaker:</strong> ${found.position}</p>
-                <p><strong>Motion Debated:</strong> ${found.motion_debated}</p>
+                <p><strong>Motion/Topic:</strong> ${found.motion_debated}</p>
                 <p><strong>Team Name (For Debaters Only):</strong> ${found.team_name}</p>
                 <p><strong>Organization/Institution:</strong> ${found.organization}</p>
                 <p><strong>Batch & Section:</strong> ${found.batch}</p>
                 <p><strong>ID:</strong> ${found.id}</p>
-                <h2>Performance & Feedback</h2>
+                <h3>Performance & Feedback</h3>
                 <p><strong>Scores & Feedback:</strong> ${found.scores_feedback}</p>
                 <p><strong>Judge’s Comment:</strong> ${found.judges_comment}</p>
                 <p><strong>Additional Comments:</strong> ${found.comment}</p>
@@ -36,7 +36,7 @@ async function searchCertificate() {
                 
             `;
         } else {
-            resultDiv.innerHTML = "<h2>Certificate Not Found ❌</h2>";
+            resultDiv.innerHTML = "<h2>Certificate Not Found ❌ or Error fetching certificate ❌  <p> <h5>Please contact with Rafi on WhatsApp (+8801300560126) for assistance <b></h2>";
         }
     } catch (error) {
         console.error('Error fetching certificates:', error);
