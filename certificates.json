@@ -26,6 +26,22 @@
 
     },
     {
+        "cert_no": "123456",
+        "id": "1011230726",
+        "name": "Md Golam Mubasshir Rafi",
+        "event": " AIBA Intra Debate Competition 202V",
+        "event_type": "British Parliamentary, Intra University",
+        "event_date": "2024-05-15",
+        "batch": "BBA-11",
+        "section": "",
+        "team_name": "Dialectic Pioneers",
+        "role": "Debater (DPM)",
+        "comment": "Test Comment",
+        "photo": "Photos/aiba.jpg",
+        "issued_by": "AIBA Debate Club, Army Institute of Business Administration, Sylhet"
+
+    },
+    {
         "cert_no": "67890",
         "id": "def456",
         "name": "Jane Smith",
