@@ -11,18 +11,26 @@ async function searchCertificate() {
         if (found) {
             resultDiv.innerHTML = `
                 <h2>Certificate Found ✅</h2>
-                <p><strong>Event Name:</strong> ${found.event}</p>
-                <p><strong>Event Type:</strong> ${found.event_type}</p>
+                <p><strong>Event Name:</strong> ${found.event_name}</p>
+                <p><strong>Debate Format & Event Type:</strong> ${found.debate_format} & ${found.event_type}</p>
                 <p><strong>Event Date:</strong> ${found.event_date}</p>
+                <h3>Participant Details</h3>
   <p><strong>Photo:</strong></p>
                 <img src="${found.photo}" alt="Debater Photo" style="max-width: 200px; max-height: 200px;">
-                <p><strong>Name:</strong> ${found.name}</p>
-                <p><strong>Team:</strong> ${found.team_name}</p>
-                <p><strong>Role/Position:</strong> ${found.role}</p>
+              <p><strong>Name:</strong> ${found.name}</p>
+                <p><strong>Role:</strong> ${found.role}</p>
+                <p><strong>Position/Speaker:</strong> ${found.position}</p>
+                <p><strong>Motion Debated:</strong> ${found.motion_debated}</p>
+                <p><strong>Team Name (For Debaters Only):</strong> ${found.team_name}</p>
+                <p><strong>Organization/Institution:</strong> ${found.organization}</p>
                 <p><strong>Batch & Section:</strong> ${found.batch}</p>
-                <p><strong>Student ID:</strong> ${found.id}</p>
+                <p><strong>ID:</strong> ${found.id}</p>
+                <h2>Performance & Feedback</h2>
+                <p><strong>Scores & Feedback:</strong> ${found.scores_feedback}</p>
+                <p><strong>Judge’s Comment:</strong> ${found.judges_comment}</p>
+                <p><strong>Additional Comments:</strong> ${found.comment}</p>
+                <h3>Certificate Information</h3>
                 <p><strong>Certificate Number:</strong> ${found.cert_no}</p>
-                <p><strong>Comment:</strong> ${found.comment}</p>
                 <p><strong>Issued By:</strong> ${found.issued_by}</p>
 
                 
